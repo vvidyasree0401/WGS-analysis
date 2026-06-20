@@ -1,6 +1,6 @@
-# UPEC Whole Genome Sequencing (WGS) Analysis
+# Bacterial Whole Genome Sequencing (WGS) Analysis
 
-A reproducible bioinformatics workflow for the whole-genome sequencing (WGS) analysis of **Uropathogenic *Escherichia coli* (UPEC)** using publicly available sequencing data. This project demonstrates the complete bacterial WGS analysis pipeline, from raw reads to genomic characterization.
+A reproducible bioinformatics workflow for the analysis of bacterial whole-genome sequencing (WGS) data using publicly available datasets. This repository demonstrates a complete bacterial WGS analysis pipeline, from raw sequencing reads to genome assembly, annotation, and downstream genomic characterization.
 
 ## Workflow
 
@@ -52,7 +52,7 @@ Genome Annotation
 
 ## Dataset
 
-This workflow was developed using publicly available UPEC sequencing data. The dataset is not included in this repository due to its size but can be replaced with any paired-end bacterial WGS dataset.
+This workflow was developed using publicly available bacterial Whole genome sequencing data. The dataset is not included in this repository due to its size but can be replaced with any paired-end bacterial WGS dataset.
 
 ## License
 
