@@ -39,7 +39,7 @@ Genome Annotation
 | **Quality Control** | [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) | Raw read quality assessment |
 | **Read Trimming** | [fastp](https://github.com/OpenGene/fastp) | Adapter trimming and quality filtering |
 | **Genome Assembly** | [Unicycler](https://github.com/rrwick/Unicycler) | De novo assembly (hybrid or short-read) |
-| **Assembly Assessment** | [QUAST](http://quast.sourceforge.net/quast) | Evaluating assembly metrics (N50, contig count) |
+| **Assembly Assessment** | [BUSCO](https://busco.ezlab.org/) | Evaluating biological and evolutionary completeness |
 | **Genome Annotation** | [Prokka](https://github.com/tseemann/prokka) | Rapid prokaryotic genome annotation |
 | **AMR Detection** | [AMRFinderPlus](https://github.com/ncbi/amr) | Identifying antimicrobial resistance genes |
 | **Virulence Profiling** | [ABRicate](https://github.com/tseemann/abricate) + VFDB | Screening contigs for virulence factors |
