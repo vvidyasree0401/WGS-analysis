@@ -1,6 +1,6 @@
-# Bacterial Whole Genome Sequencing (WGS) Analysis
+# Bacterial WGS & AMR Analysis Pipeline
 
-A reproducible bioinformatics workflow for the analysis of bacterial whole-genome sequencing (WGS) data using publicly available datasets. This repository demonstrates a complete bacterial WGS analysis pipeline, from raw sequencing reads to genome assembly, annotation, and downstream genomic characterization.
+A reproducible bioinformatics workflow for analyzing antimicrobial resistant (AMR) bacteria using public whole-genome sequencing (WGS) data. This repository provides a simple, end-to-end pipeline that takes raw sequencing reads through quality control, genome assembly, and structural annotation, followed by deep genomic characterization including AMR profiling, virulence detection, plasmid mapping, plasmid/sequence typing, and core-genome phylogenetics.
 
 ## Workflow
 
