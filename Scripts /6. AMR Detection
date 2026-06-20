@@ -1,0 +1,17 @@
+#!/bin/bash
+# Antimicrobial Resistance (AMR) Detection using AMRFinderPlus
+
+# Create output directory
+mkdir -p amr_out
+
+# 1. Update the AMRFinderPlus database to the latest version
+echo "Updating AMRFinderPlus database..."
+amrfinder_update
+
+# 2. Run AMR identification using the nucleotide FASTA file (.fna)
+echo "Running AMR analysis..."
+amrfinder -n annotation/sample.fna \
+          -o amr_out/amr_results.txt \
+          --threads 4
+
+echo "AMR detection complete. Results saved to amr_out/amr_results.txt"
