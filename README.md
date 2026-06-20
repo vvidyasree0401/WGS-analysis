@@ -32,22 +32,22 @@ Genome Annotation
     
 ```
 
-## Tools
+## Tools & Software Stack
 
-| Step | Software |
-|------|----------|
-| Quality Control | FastQC |
-| Read Trimming | fastp |
-| Genome Assembly | Unicycler |
-| Assembly Assessment | QUAST |
-| Genome Annotation | Prokka |
-| AMR Detection | AMRFinderPlus |
-| Virulence Profiling | ABRicate + VFDB |
-| Plasmid Detection | PlasmidFinder |
-| Sequence Typing | mlst |
-| SNP Calling | Snippy |
-| Phylogenetic Analysis | IQ-TREE |
-| Pan-genome Analysis | Panaroo |
+| Step | Software / Tool | Purpose |
+| :--- | :--- | :--- |
+| **Quality Control** | [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) | Raw read quality assessment |
+| **Read Trimming** | [fastp](https://github.com/OpenGene/fastp) | Adapter trimming and quality filtering |
+| **Genome Assembly** | [Unicycler](https://github.com/rrwick/Unicycler) | De novo assembly (hybrid or short-read) |
+| **Assembly Assessment** | [QUAST](http://quast.sourceforge.net/quast) | Evaluating assembly metrics (N50, contig count) |
+| **Genome Annotation** | [Prokka](https://github.com/tseemann/prokka) | Rapid prokaryotic genome annotation |
+| **AMR Detection** | [AMRFinderPlus](https://github.com/ncbi/amr) | Identifying antimicrobial resistance genes |
+| **Virulence Profiling** | [ABRicate](https://github.com/tseemann/abricate) + VFDB | Screening contigs for virulence factors |
+| **Plasmid Detection** | [PlasmidFinder](https://cge.food.dtu.dk/services/PlasmidFinder/) | Identification of plasmid replicons |
+| **Sequence Typing** | [mlst](https://github.com/tseemann/mlst) | Scan contigs for multi-locus sequence typing |
+| **SNP Calling** | [Snippy](https://github.com/tseemann/snippy) | Rapid haploid variant calling and core genome alignment |
+| **Phylogenetics** | [IQ-TREE](http://www.iqtree.org/) | Efficient phylogenomic tree reconstruction |
+| **Pan-genome Analysis** | [Panaroo](https://gtonkinhill.github.io/panaroo/) | Bacterial pangenome analysis pipeline |
 
 
 ## Dataset
